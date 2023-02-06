@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: "/assets",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/assets" : undefined,
 };
 
 module.exports = nextConfig;
