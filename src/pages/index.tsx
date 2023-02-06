@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       <Container className="pt-4 pb-12 grid gap-6">
         <section>
-          <div className="text-gray-500 uppercase text-sm mb-3">
+          <div className="text-gray-500 uppercase text-xs mb-3">
             &mdash; tell me about yourself
           </div>
 
@@ -31,7 +31,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="text-gray-500 uppercase text-sm mb-3">
+          <div className="text-gray-500 uppercase text-xs mb-3">
             &mdash; what tools / language / concepts do you use
           </div>
 
@@ -162,7 +162,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="text-gray-500 uppercase text-sm mb-3">
+          <div className="text-gray-500 uppercase text-xs mb-3">
             &mdash; how do i reach out
           </div>
           Email me at{" "}
