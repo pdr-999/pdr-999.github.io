@@ -78,8 +78,9 @@ export default function Home() {
               </Card.Section>
               <Card.Section className="p-3">
                 I usually ship my web apps with Docker. <br /> <br /> I always
-                try to reduce my image as much as possible using npm pruning &
-                multi-stage builds and implement caching for faster builds.
+                try to reduce my image size as much as possible by pruning
+                node_modules & implement multi-stage builds with caching for
+                faster builds.
               </Card.Section>
             </Card>
 
@@ -151,8 +152,8 @@ export default function Home() {
                 </Badge>
               </Card.Section>
               <Card.Section className="p-3">
-                I use python mainly for making desktop tools to assist in games
-                such as Cooldown Trackers.
+                I use python mainly for building tools such as Cooldown Trackers
+                for games.
                 <br /> <br />
                 Somewhat familliar with coroutines, threads, tesseract OCR.
               </Card.Section>
