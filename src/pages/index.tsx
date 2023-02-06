@@ -115,7 +115,7 @@ export default function Home() {
                 Load Balancer to handle incoming traffic.
                 <br />
                 <br />
-                Most of it is configured using Terraform.
+                Most of it is configured with Terraform.
               </Card.Section>
             </Card>
 
@@ -134,7 +134,7 @@ export default function Home() {
                 ></Badge>
               </Card.Section>
               <Card.Section className="p-3">
-                During free time I like to work on my personal game. It&apos;s a
+                In my free time I like to work on my personal game. It&apos;s a
                 top down RPG based dungeon crawler autobattler with talent tree,
                 skills, and items inspired by Path of Exile and Dota 2.
                 <br /> <br />
